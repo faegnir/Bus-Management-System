@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <time.h>
-//FONKSÝYONLAR
+//FONKSÄ°YONLAR
 void firma_girisi();
 void add_otobus();
 void sefer_info();
@@ -29,7 +29,7 @@ int main()
     scanf(" %c",&i);
     switch(i)
     {
-    case '1':                             //ANA MENU OPSÝYONLARI
+    case '1':                             //ANA MENU OPSÄ°YONLARI
         firma_girisi();
         break;
     case '2':
@@ -167,7 +167,7 @@ printf("Sefer Numarasi: ");
      }
      printf("\nYukaridaki sefer numarasini giriniz: ");
      scanf("%s",&sefno);
-// HEX ATAMASI BÝTTÝ
+// HEX ATAMASI BÄ°TTÄ°
 
      while(fscanf(busekle,"%d %d %d",&oto_no,&kpst,&personel)!=EOF){printf("%d\n",oto_no);}
      printf("\nyukarida bulunan otobus numaralarindan istediginizi secin:\n");
@@ -182,7 +182,7 @@ printf("Sefer Numarasi: ");
       printf("\nPersonel Sayisini giriniz: ");
       scanf("%d",&person);
      uzunhata:
-     printf("\nSectiginiz otobusun sefer baslangic saatini girin: ");                //ASAGIDAKI IF-ELSE, GÝRÝLEN SAATÝ OGRENCÝ NUMARAMLA DUZENLEMEK ICIN
+     printf("\nSectiginiz otobusun sefer baslangic saatini girin: ");                //ASAGIDAKI IF-ELSE, GÄ°RÄ°LEN SAATÄ° OGRENCÄ° NUMARAMLA DUZENLEMEK ICIN
      scanf("%d",&saat);
      dakika = saat%100;
 if(dakika!=9)
